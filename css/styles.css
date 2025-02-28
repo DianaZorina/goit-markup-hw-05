@@ -705,7 +705,6 @@ img {
 .modal-close:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
 .modal-close-svg {
@@ -732,7 +731,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -751,7 +750,6 @@ img {
 .modal-input:hover,
 .modal-input:focus {
   border-color: #4d5ae5;
-  fill: #4d5ae5;
 }
 
 .modal-input:hover + .modal-icons,
@@ -782,7 +780,7 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-div-input {
@@ -792,6 +790,7 @@ img {
 .modal-div-input:hover .modal-icons,
 .modal-div-input:focus .modal-icons {
   fill: #4d5ae5;
+  #ffffff
 }
 
 .modal-textarea {
