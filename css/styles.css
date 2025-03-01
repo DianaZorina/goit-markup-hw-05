@@ -792,6 +792,9 @@ img {
 .modal-div-input:focus .modal-icons {
 }
 
+.modal-comment {
+  margin-bottom: 16px;
+}
 .modal-textarea {
   width: 100%;
   height: 120px;
