@@ -201,7 +201,6 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  /* 184.15px 471.5px 295.85px  */
 }
 
 .hero-btn {
@@ -772,7 +771,7 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:hover + .modal-icons,
@@ -824,7 +823,7 @@ img {
 .modal-check-text {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: flex;
@@ -837,41 +836,44 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check:checked + .modal-check-text .modal-check-item {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
+.modal-link {
+  color: #4d5ae5;
+}
+
 .modal-button {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   margin: 24px 96px;
+  font-family: "Roboto", sans-serif;
+cursor: pointer;
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .modal-input:valid {
-  color: green;
-}
-.modal-input:invalid {
-  color: red;
-} */
-/* #endregion Modal window section */
