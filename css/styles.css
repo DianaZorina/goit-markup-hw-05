@@ -827,6 +827,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  user-select: none;
 }
 
 .modal-check-item {
@@ -870,7 +871,7 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
-  margin: 24px 96px;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 cursor: pointer;
 border: none;
