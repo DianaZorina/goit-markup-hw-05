@@ -752,7 +752,6 @@ img {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  margin-bottom: 8px;
   padding-left: 38px;
   padding-right: 16px;
   outline: transparent;
@@ -858,7 +857,6 @@ img {
 .modal-button {
   display: block;
   align-items: center;
-  justify-content: center;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
@@ -871,9 +869,30 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
-  margin: 0;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
 cursor: pointer;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+/* .mobile-menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu.is-open{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+} */
