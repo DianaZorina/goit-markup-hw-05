@@ -119,7 +119,7 @@
 
 .footer-input:hover,
 .footer-input:focus {
-  border: 1px solid #4d5ae5;
+  border-color: #31d0aa;
 }
 
 .footer-input::placeholder {
